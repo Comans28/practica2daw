@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+#tablaJuegos {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#tablaJuegos th, #tablaJuegos td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  text-align: left;
+}
+
+#tablaJuegos th {
+  background-color: #3498db;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Efecto cebra para las filas */
+#tablaJuegos tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Efecto hover al pasar el ratón */
+#tablaJuegos tbody tr:hover {
+  background-color: #d1f2eb;
+  transition: background-color 0.2s ease;
+}
